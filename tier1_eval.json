@@ -1,0 +1,47 @@
+{
+  "checkpoint": "./checkpoints/five_roi_v2_temporal/model_best.pth",
+  "ckpt_val_raw": 80.23064250411862,
+  "eval_clips": 3642,
+  "c0_9f_blends": 1410,
+  "overall": {
+    "raw": 80.26,
+    "v2": 79.63,
+    "v3": 79.82,
+    "hybrid": 81.3,
+    "tier1": 81.8
+  },
+  "focus_classes": {
+    "c0": {
+      "n": 524,
+      "raw": 44.7,
+      "v2": 52.5,
+      "v3": 52.7,
+      "hybrid": 51.9,
+      "tier1": 51.0
+    },
+    "c5": {
+      "n": 500,
+      "raw": 64.8,
+      "v2": 67.8,
+      "v3": 79.8,
+      "hybrid": 79.2,
+      "tier1": 80.2
+    },
+    "c8": {
+      "n": 341,
+      "raw": 82.4,
+      "v2": 67.4,
+      "v3": 75.4,
+      "hybrid": 83.3,
+      "tier1": 84.8
+    }
+  },
+  "confusion_v2_to_tier1_delta": {
+    "c0->c3": 4,
+    "c0->c7": -22,
+    "c0->c5": 21,
+    "c5->c9": -20,
+    "c8->c5": -19,
+    "c8->c7": -17
+  }
+}

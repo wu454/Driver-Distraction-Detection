@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+
+# Output
+output/
+
+# Model
+*.pth
+*.pt
+*.ckpt
+
+# Gradio cache
+.gradio/
+
+# Videos
+*.mp4
+
+# Temporary
+*.tmp

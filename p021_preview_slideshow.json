@@ -1,0 +1,1363 @@
+{
+  "subject": "p021",
+  "images": 150,
+  "output_video": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\inference_bundle\\p021_数据集幻灯片.mp4",
+  "hold_seconds": 1.0,
+  "max_per_class": 15,
+  "aborted": false,
+  "frames": [
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_42143.jpg",
+      "img": "img_42143.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_42578.jpg",
+      "img": "img_42578.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_42798.jpg",
+      "img": "img_42798.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_44644.jpg",
+      "img": "img_44644.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_45499.jpg",
+      "img": "img_45499.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_45572.jpg",
+      "img": "img_45572.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_47474.jpg",
+      "img": "img_47474.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_49110.jpg",
+      "img": "img_49110.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_51849.jpg",
+      "img": "img_51849.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_51918.jpg",
+      "img": "img_51918.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_52101.jpg",
+      "img": "img_52101.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_53145.jpg",
+      "img": "img_53145.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_54047.jpg",
+      "img": "img_54047.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_54419.jpg",
+      "img": "img_54419.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c0\\img_56098.jpg",
+      "img": "img_56098.jpg",
+      "true_class": "c0",
+      "true_label_zh": "安全驾驶",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_38536.jpg",
+      "img": "img_38536.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_40027.jpg",
+      "img": "img_40027.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_42876.jpg",
+      "img": "img_42876.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_43786.jpg",
+      "img": "img_43786.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_44362.jpg",
+      "img": "img_44362.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_46247.jpg",
+      "img": "img_46247.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_47482.jpg",
+      "img": "img_47482.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_48850.jpg",
+      "img": "img_48850.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_49061.jpg",
+      "img": "img_49061.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_50077.jpg",
+      "img": "img_50077.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_51087.jpg",
+      "img": "img_51087.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_51709.jpg",
+      "img": "img_51709.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_52165.jpg",
+      "img": "img_52165.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_53130.jpg",
+      "img": "img_53130.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c1\\img_53953.jpg",
+      "img": "img_53953.jpg",
+      "true_class": "c1",
+      "true_label_zh": "右手发短信",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_42027.jpg",
+      "img": "img_42027.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_48182.jpg",
+      "img": "img_48182.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_48207.jpg",
+      "img": "img_48207.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_49866.jpg",
+      "img": "img_49866.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_51277.jpg",
+      "img": "img_51277.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_52810.jpg",
+      "img": "img_52810.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_52919.jpg",
+      "img": "img_52919.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_53265.jpg",
+      "img": "img_53265.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_53925.jpg",
+      "img": "img_53925.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_57526.jpg",
+      "img": "img_57526.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_57587.jpg",
+      "img": "img_57587.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_57981.jpg",
+      "img": "img_57981.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_58270.jpg",
+      "img": "img_58270.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_58882.jpg",
+      "img": "img_58882.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c2\\img_60738.jpg",
+      "img": "img_60738.jpg",
+      "true_class": "c2",
+      "true_label_zh": "右手打电话",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_45469.jpg",
+      "img": "img_45469.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_46071.jpg",
+      "img": "img_46071.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_46508.jpg",
+      "img": "img_46508.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_49058.jpg",
+      "img": "img_49058.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_50402.jpg",
+      "img": "img_50402.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_50539.jpg",
+      "img": "img_50539.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_50581.jpg",
+      "img": "img_50581.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_51582.jpg",
+      "img": "img_51582.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_52622.jpg",
+      "img": "img_52622.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_52695.jpg",
+      "img": "img_52695.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_53574.jpg",
+      "img": "img_53574.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_55972.jpg",
+      "img": "img_55972.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_58215.jpg",
+      "img": "img_58215.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_58508.jpg",
+      "img": "img_58508.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c3\\img_58768.jpg",
+      "img": "img_58768.jpg",
+      "true_class": "c3",
+      "true_label_zh": "左手发短信",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_41172.jpg",
+      "img": "img_41172.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_41982.jpg",
+      "img": "img_41982.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_42570.jpg",
+      "img": "img_42570.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_43293.jpg",
+      "img": "img_43293.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_44129.jpg",
+      "img": "img_44129.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_44439.jpg",
+      "img": "img_44439.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_48246.jpg",
+      "img": "img_48246.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_48472.jpg",
+      "img": "img_48472.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_48761.jpg",
+      "img": "img_48761.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_49619.jpg",
+      "img": "img_49619.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_51356.jpg",
+      "img": "img_51356.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_51644.jpg",
+      "img": "img_51644.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_52106.jpg",
+      "img": "img_52106.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_54661.jpg",
+      "img": "img_54661.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c4\\img_56761.jpg",
+      "img": "img_56761.jpg",
+      "true_class": "c4",
+      "true_label_zh": "左手打电话",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_46237.jpg",
+      "img": "img_46237.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_47151.jpg",
+      "img": "img_47151.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_47389.jpg",
+      "img": "img_47389.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_48644.jpg",
+      "img": "img_48644.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_49323.jpg",
+      "img": "img_49323.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_49687.jpg",
+      "img": "img_49687.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_50512.jpg",
+      "img": "img_50512.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_50563.jpg",
+      "img": "img_50563.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_51254.jpg",
+      "img": "img_51254.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_51479.jpg",
+      "img": "img_51479.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_51890.jpg",
+      "img": "img_51890.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_52826.jpg",
+      "img": "img_52826.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_53336.jpg",
+      "img": "img_53336.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_54197.jpg",
+      "img": "img_54197.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c5\\img_55226.jpg",
+      "img": "img_55226.jpg",
+      "true_class": "c5",
+      "true_label_zh": "调收音机",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_51441.jpg",
+      "img": "img_51441.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_52227.jpg",
+      "img": "img_52227.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_52339.jpg",
+      "img": "img_52339.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_53264.jpg",
+      "img": "img_53264.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_53555.jpg",
+      "img": "img_53555.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_54216.jpg",
+      "img": "img_54216.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_54743.jpg",
+      "img": "img_54743.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_55381.jpg",
+      "img": "img_55381.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_55712.jpg",
+      "img": "img_55712.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_56595.jpg",
+      "img": "img_56595.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_56751.jpg",
+      "img": "img_56751.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_57572.jpg",
+      "img": "img_57572.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_58206.jpg",
+      "img": "img_58206.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_59366.jpg",
+      "img": "img_59366.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c6\\img_60090.jpg",
+      "img": "img_60090.jpg",
+      "true_class": "c6",
+      "true_label_zh": "喝水",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_38274.jpg",
+      "img": "img_38274.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_38925.jpg",
+      "img": "img_38925.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_39648.jpg",
+      "img": "img_39648.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_41242.jpg",
+      "img": "img_41242.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_42048.jpg",
+      "img": "img_42048.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_42145.jpg",
+      "img": "img_42145.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_42593.jpg",
+      "img": "img_42593.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_43122.jpg",
+      "img": "img_43122.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_44503.jpg",
+      "img": "img_44503.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_45619.jpg",
+      "img": "img_45619.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_47927.jpg",
+      "img": "img_47927.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_48365.jpg",
+      "img": "img_48365.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_49477.jpg",
+      "img": "img_49477.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_50030.jpg",
+      "img": "img_50030.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c7\\img_52943.jpg",
+      "img": "img_52943.jpg",
+      "true_class": "c7",
+      "true_label_zh": "伸手到后座",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_42709.jpg",
+      "img": "img_42709.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_45034.jpg",
+      "img": "img_45034.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_45707.jpg",
+      "img": "img_45707.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_45869.jpg",
+      "img": "img_45869.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_47271.jpg",
+      "img": "img_47271.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_47361.jpg",
+      "img": "img_47361.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_47484.jpg",
+      "img": "img_47484.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_47518.jpg",
+      "img": "img_47518.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_49411.jpg",
+      "img": "img_49411.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_50150.jpg",
+      "img": "img_50150.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_50774.jpg",
+      "img": "img_50774.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_50928.jpg",
+      "img": "img_50928.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_51539.jpg",
+      "img": "img_51539.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_51691.jpg",
+      "img": "img_51691.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c8\\img_52596.jpg",
+      "img": "img_52596.jpg",
+      "true_class": "c8",
+      "true_label_zh": "化妆/照镜子",
+      "index_in_class": 15,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_47155.jpg",
+      "img": "img_47155.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 1,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_47671.jpg",
+      "img": "img_47671.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 2,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_47970.jpg",
+      "img": "img_47970.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 3,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_48189.jpg",
+      "img": "img_48189.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 4,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_48807.jpg",
+      "img": "img_48807.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 5,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_49317.jpg",
+      "img": "img_49317.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 6,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_49923.jpg",
+      "img": "img_49923.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 7,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_50218.jpg",
+      "img": "img_50218.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 8,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_50540.jpg",
+      "img": "img_50540.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 9,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_50680.jpg",
+      "img": "img_50680.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 10,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_50916.jpg",
+      "img": "img_50916.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 11,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_51038.jpg",
+      "img": "img_51038.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 12,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_52400.jpg",
+      "img": "img_52400.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 13,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_53997.jpg",
+      "img": "img_53997.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 14,
+      "total_in_class": 15
+    },
+    {
+      "subject": "p021",
+      "path": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train\\c9\\img_54055.jpg",
+      "img": "img_54055.jpg",
+      "true_class": "c9",
+      "true_label_zh": "与后座乘客交谈",
+      "index_in_class": 15,
+      "total_in_class": 15
+    }
+  ],
+  "created_at": "2026-06-04T17:16:47",
+  "data_dir": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\train",
+  "mapping_csv": "D:\\Program Files\\AAAA\\机器学习\\期末项目\\inference_bundle\\data\\driver_imgs_list.csv"
+}

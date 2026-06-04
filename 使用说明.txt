@@ -1,0 +1,228 @@
+================================================================================
+  Driver Distraction Detection — Local Inference Bundle (Tier-1)
+================================================================================
+
+Model: five_roi_v2_temporal + tier1 hybrid gates
+Val accuracy: 81.80% (tier1, temporal clips)
+
+================================================================================
+  一、目录结构
+================================================================================
+
+inference_bundle/
+  model_best.pth                 模型权重 (~155 MB)
+  requirements.txt               Python 依赖
+  tier1_eval.json                验证集指标参考
+  使用说明.txt                   本文件
+
+  --- 可视化界面（本地 GPU 推荐）---
+  driver_distraction_ui.py       Gradio Web 界面（图片/摄像头/视频）
+  run_ui.bat                     Windows 一键启动（CUDA）
+  run_ui.sh                      Linux/Mac 启动脚本
+
+  --- 图片 / GIF ---
+  predict_five_roi.py            单图、文件夹、GIF 推理（主入口）
+  run_image.sh                   单张图片
+  run_folder.sh                  整个文件夹
+  run_gif.sh                     GIF 动图
+
+  --- 视频 ---
+  inference_video.py             四象限裁剪后推理（默认 Q4 右下）
+  inference_prepared_video.py    单画面视频推理（用于 Q2 镜像预处理后的 MP4）
+  mp4_q2_mirror_prepare.py       MP4 → Q2 左上裁剪 + 水平镜像（预处理）
+  run_mp4_pipeline.sh            预处理 + 推理一键脚本
+
+  --- 数据集幻灯片（需自带 data/train + CSV）---
+  slideshow_driver_preview.py    无推理：按类抽样拼接 MP4（p021/p024 等）
+  run_slideshow_preview.bat      Windows 一键生成 p021+p024 幻灯片
+  run_slideshow_preview.sh       Linux/Mac 同上
+  slideshow_driver_inference.py  带模型推理的幻灯片（需 GPU + model_best.pth）
+
+  --- 依赖模块（勿删）---
+  tier1_inference.py  inference_gates.py  roi_config.py
+  models.py  dataset.py  augmentations.py
+
+================================================================================
+  二、环境安装（本地 RTX 3050）
+================================================================================
+
+  建议: Python 3.10+, CUDA 11.8+, PyTorch 2.x
+
+  pip install -r requirements.txt
+
+  若 PyTorch 未装 GPU 版，请到 https://pytorch.org 按 CUDA 版本安装，例如:
+  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+  验证 GPU:
+  python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+
+================================================================================
+  三、类别说明（英文标签）
+================================================================================
+
+  c0  safe driving          c5  operating radio
+  c1  texting - right        c6  drinking
+  c2  phone call - right     c7  reaching behind
+  c3  texting - left         c8  hair and makeup
+  c4  phone call - left      c9  talking to passenger
+
+================================================================================
+  四、图片推理
+================================================================================
+
+  【单张图片】
+  python predict_five_roi.py --image photo.jpg
+  bash run_image.sh photo.jpg
+
+  【文件夹批量】
+  python predict_five_roi.py --dir ./my_images/ --output results.json
+  bash run_folder.sh ./my_images/
+
+  【GIF】
+  python predict_five_roi.py --gif clip.gif --save-gif clip_pred.gif
+  bash run_gif.sh clip.gif
+
+  常用参数:
+  --ckpt ./model_best.pth     模型路径（默认已指向本目录）
+  --device cuda               使用 GPU（3050 推荐）
+  --no-tier1                  关闭 tier1，仅用 v2 门控
+
+  输出: 终端打印预测类别与置信度；--output xxx.json 保存 JSON
+
+================================================================================
+  五、视频推理
+================================================================================
+
+  【A】原始四宫格视频（如 test.avi）— 只推理某一象限
+  布局:
+      Q2 左上  | Q1 右上
+      ---------+---------
+      Q3 左下  | Q4 右下  (默认 Q4)
+
+  python inference_video.py --video test.avi --quadrant 4 --device cuda \
+    --output test_q4_pred.avi --json logs/pred.json
+
+  【B】3MDAD 等 MP4 — Q2 镜像预处理 + 推理（推荐）
+
+  注意: 压缩包里只有脚本和 model_best.pth，不含任何视频。
+  请先把 "3MDAD (Day).mp4" 复制到 inference_bundle 文件夹。
+
+  步骤 1 — 生成 3MDAD_q2_mirror.mp4（CPU 即可，约几分钟）:
+  python mp4_q2_mirror_prepare.py --video "3MDAD (Day).mp4" --output 3MDAD_q2_mirror.mp4
+
+  步骤 2 — GPU 推理:
+  python inference_prepared_video.py --video 3MDAD_q2_mirror.mp4 --device cuda --output 3MDAD_pred.mp4
+
+  调试时可先只处理 60 帧:
+  python mp4_q2_mirror_prepare.py --video "3MDAD (Day).mp4" --output test_mirror.mp4 --max-frames 60
+  python inference_prepared_video.py --video test_mirror.mp4 --device cuda --output test_pred.mp4
+
+  视频参数:
+  --max-frames 300            只处理前 N 帧（调试）
+  --print-every 30            每 N 帧打印一次
+  --no-tier1                  关闭 tier1 门控
+
+================================================================================
+  六、数据集司机幻灯片（可选，需 State Farm 数据）
+================================================================================
+
+  需要 data/train/ 和 data/driver_imgs_list.csv（可与 inference_bundle 同级，或放在 bundle 内 data/）
+
+  --- 无推理预览（推荐先跑，无需 GPU / 模型）---
+
+  双击 run_slideshow_preview.bat
+  或:
+  python slideshow_driver_preview.py --subjects p021,p024 --max-per-class 15 --hold-seconds 1
+
+  输出: p021_数据集幻灯片.mp4、p024_数据集幻灯片.mp4
+  每类默认均匀抽 15 张，左上角标注司机编号与真实类别（c0~c9 中文名）
+
+  --- 带模型推理的幻灯片 ---
+
+  python slideshow_driver_inference.py --subject p021 --device cuda \
+    --force-temporal --output 司机幻灯片.mp4
+
+  默认: 每类 15 张、每张 0.2 秒
+  c2/c4 贴耳打电话: ear_call 启发式 + call_pose_boost（仅 c2/c4）、输出 MP4、中文标注
+  --hold-seconds 0.3            更快切换
+  --max-per-class 20            每类 20 张
+  --max-per-class 0             每类全部（1237 张，耗时长）
+  CPU 默认单帧推理；GPU 加 --force-temporal
+
+================================================================================
+  七、参数调整（roi_config.py）
+================================================================================
+
+  修改后无需重训，直接重新推理。
+
+  Tier-1 时序:
+    TIER1_C0_BLEND = 0.5         9 帧融合权重
+    TIER1_C0_HALF_WINDOW = 4     c0 长窗口 9 帧
+
+    tier1 门控已恢复验证集原版；新增 tier1_rescue（predict_five_roi / tier1_inference）:
+    模型 raw 判 c1-c4/c9，门控改成 c0/c6/c8 或 c3↔c4 时，自动用 raw 结果
+  关闭 rescue: roi_config.py 设 TIER1_RESCUE_ENABLED = False
+  对比纯模型: --no-tier1
+
+  ROI 区域: FACE_ROI / LEFT_HAND_ROI / ... / CONSOLE_ROI
+
+================================================================================
+  八、打包与下载建议
+================================================================================
+
+  将整个 inference_bundle/ 文件夹压缩下载到本地，例如:
+  zip -r inference_bundle.zip inference_bundle/
+
+  本地解压后:
+  cd inference_bundle
+  pip install -r requirements.txt
+  # 安装 GPU 版 PyTorch
+  bash run_mp4_pipeline.sh "你的视频.mp4"
+
+  视频文件较大请勿打入 zip，单独拷贝。
+
+================================================================================
+  九、可视化 Web 界面（本地 RTX 3050）
+================================================================================
+
+  界面布局：左侧「当前驾驶画面」+ 右侧「预测结果 / 置信度 / 危险等级」
+
+  【Windows 一键启动】
+  双击 run_ui.bat
+  或在 inference_bundle 目录打开 PowerShell:
+
+  pip install -r requirements.txt
+  pip install gradio
+  python driver_distraction_ui.py --device cuda
+
+  浏览器访问: http://127.0.0.1:7860
+
+  【功能】
+  - 图片 / 摄像头：上传或拍照后自动检测
+  - 视频：上传 MP4，导出带标注的视频
+  - 模型：Tier-1 + 5 帧时序（与部署包 model_best.pth 一致）
+
+  【危险等级】
+  Low    — 安全驾驶 (c0)
+  Medium — 喝水 / 调收音机 / 与乘客交谈 (c5,c6,c9)
+  High   — 手机 / 伸手 / 化妆等 (c1–c4,c7,c8)
+
+  说明：请在本地有 NVIDIA GPU 的机器上运行；云服务器 CPU 仅作备用。
+
+================================================================================
+  十、常见问题
+================================================================================
+
+  Q: ModuleNotFoundError?
+  A: 在 inference_bundle 目录内运行，且 pip install -r requirements.txt
+
+  Q: CUDA out of memory?
+  A: 视频用 --max-frames 分段处理；图片批量减小 batch
+
+  Q: 预处理后的视频还要切象限吗?
+  A: 不要。用 inference_prepared_video.py，不要用 inference_video.py
+
+  Q: 准确率比验证集低?
+  A: 确认 --device cuda 且使用 tier1；3MDAD 需先 Q2 镜像预处理
+
+================================================================================
